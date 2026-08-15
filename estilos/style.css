@@ -26,7 +26,7 @@ transition: background-color 0.2s;}
 
 section {padding: 20px; background-color: white; margin-bottom: 30px; border-radius: 20px; box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.199);}
 
-img {display: block;
+#ficha img {display: block;
 margin: auto;
 margin-bottom: 40px;
 width: 200px; height:200px; object-fit: cover; 
@@ -54,7 +54,7 @@ justify-content: center;}
 #detalhes {grid-row-start: 2; grid-column-start: 2;}
 
 #artVideo {display: flex; justify-content: center; align-items: center;}
-iframe {border-radius: 5px; margin-bottom: 20px;}
+iframe {border-radius: 5px; margin-bottom: 20px; width: 100%;}
 
 #formacoes div {background-color: var(--fundoPrincipal); padding: 10px 0px 5px 15px; border-radius: 10px; margin-bottom: 10px; border-left: 5px solid var(--destaqueInverso); cursor: pointer;}
 
@@ -99,6 +99,15 @@ animation: cs 1s ease-out forwards;}
 animation: jsss 1s ease-out forwards;}
 #pth {width: 10%; background-color: var(--destaque); border-radius: 15px;
 animation: pi 1s ease-out forwards;}
+
+
+#div-projetos p {padding: 0px; margin: 0px;}
+
+#div-projetos div {background-color: var(--fundoPrincipal); border-radius: 10px; padding: 10px; border-left: 5px solid var(--destaqueInverso); cursor: pointer; margin: 5px 0px;}
+
+#div-projetos div:hover {border-left: 10px solid var(--destaque); border-radius: 15px; transition: border-width 0.05s;}
+
+#div-projetos img {width: 95%; border-radius: 10px;}
 
 
 footer {background-color: var(--destaque); color: white; font-weight: bold;}
