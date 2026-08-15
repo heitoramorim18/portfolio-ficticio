@@ -8,10 +8,12 @@
     --destaqueInverso: #66bbff;
     --fundoCard: #ffffff;}
 
-body {height: 100vh; line-height: 1.5em; background-color: var(--fundoPrincipal);}
+body {display: flex;
+flex-direction: column;
+line-height: 1.5em; background-color: var(--fundoPrincipal);}
 
 
-header {background-color: var(--destaque);}
+header {background-color: var(--destaque); position: sticky; top: 0; z-index: 1;}
 
 
 header ul {display: flex; list-style: none; padding: 25px 10px 10px 10px;
