@@ -55,7 +55,46 @@ justify-content: center;}
 #artVideo {display: flex; justify-content: center; align-items: center;}
 iframe {border-radius: 5px; margin-bottom: 20px;}
 
-#formacoes ul {list-style-position: inside; font-weight: bold; color: var(--destaque)}
+#formacoes ul {list-style-position: inside; font-weight: bold; color: var(--destaque); margin-bottom: 15px;}
+
+#tecnologias p {display: flex;
+justify-content: space-between;
+padding-right: 15px;
+margin: 5px 0px; 
+/* background-color: var(--destaque); */ border-radius: 15px; border: 1px solid var(--destaque);
+color: black; 
+font-weight: bold;}
+
+@keyframes htm {
+
+  0% {width: 0%;}
+  100% {width: 90%;}}
+
+@keyframes cs {
+    
+  0% {width: 0%;}
+  100% {width: 90%;}}
+
+@keyframes jsss {
+    
+  0% {width: 0%;}
+  100% {width: 30%;}}
+
+@keyframes pi {
+    
+  0% {width: 0%;}
+  100% {width: 10%;}}
+
+
+#htm5 {width: 90%; background-color: var(--destaque); border-radius: 15px;
+animation: htm 1s ease-out forwards;}
+#cs3 {width: 90%; background-color: var(--destaque); border-radius: 15px;
+animation: cs 1s ease-out forwards;}
+#jss {width: 30%; background-color: var(--destaque); border-radius: 15px;
+animation: jsss 1s ease-out forwards;}
+#pth {width: 10%; background-color: var(--destaque); border-radius: 15px;
+animation: pi 1s ease-out forwards;}
+
 
 footer {background-color: var(--destaque); color: white; font-weight: bold;}
 footer p {text-align: center; padding: 5px;}
