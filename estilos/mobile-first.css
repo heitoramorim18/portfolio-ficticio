@@ -8,10 +8,19 @@
     --destaqueInverso: #66bbff;
     --fundoCard: #ffffff;}
 
+body.escuro {--fundoPrincipal: #1a1a1a;
+    --texto: #e0e0e0;
+    --textoInverso: #333333;
+    --destaque: #ff5522;
+    --destaqueInverso: #a73917;
+    --fundoCard: #2c2c2c;}
+
 body {display: flex;
 flex-direction: column;
-line-height: 1.5em; background-color: var(--fundoPrincipal);}
+line-height: 1.5em; background-color: var(--fundoPrincipal);
+background-color: var(--destaque);}
 
+main i {color: var(--destaque);}
 
 header {background-color: var(--destaque); position: sticky; top: 0; z-index: 1;}
 
@@ -43,9 +52,10 @@ h3 {color: var(--destaque);}
 p {text-align: justify; margin-bottom: 15px; text-indent: 20px;}
 
 main {display: grid; 
-grid-template-columns: auto 90vw auto;}
+grid-template-columns: auto 90vw auto;
+background-color: var(--fundoPrincipal);}
 
-#ficha {grid-column: 2;}
+#ficha {grid-column: 2; background-color: var(--fundoCard); color: var(--texto)}
 
 #navSection {display: flex;
 font-size: 30px;
@@ -53,7 +63,7 @@ justify-content: center;}
 
 #navSection a {margin: 0px 20px;}
 
-#detalhes {grid-row-start: 2; grid-column-start: 2;}
+#detalhes {grid-row-start: 2; grid-column-start: 2; background-color: var(--fundoCard); color: var(--texto)}
 
 #artVideo {display: flex; justify-content: center; align-items: center;}
 iframe {border-radius: 5px; margin-bottom: 20px; width: 100%;}
