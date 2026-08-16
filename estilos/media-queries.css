@@ -1,3 +1,12 @@
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) {
     
+    
+    header ul {justify-content: space-evenly;}
+
+    #artVideo iframe {width: 700px;}
+    #tec-div {display: grid; grid-template-columns: auto auto;}
+    #div-projetos div {display: flex; flex-flow: row-reverse nowrap; justify-content: space-between;}
+    #art-img {align-self: center;}
+    #art-text {padding: 0px 10px;}
+    #div-projetos img {width: 300px;}
 }
